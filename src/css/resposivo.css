@@ -2,6 +2,7 @@
   body {
     background: url(../images/bgmobile.jpg) no-repeat;
     background-size: cover;
+    background-color: black;
   }
 
   .imagens-slider {
@@ -21,6 +22,7 @@
   .luaganimedes {
     position: relative;
     top: 10px;
+    right: 150px;
   }
   .luacalisto {
     position: relative;
@@ -33,5 +35,17 @@
   }
   .conteudo{
     bottom: 20px;
+  }
+  .europe{
+    width: 80px;
+    height: 80px;
+  }
+  .ganimedes{
+    width: 150px;
+    height: 150px;
+  }
+  .calisto{
+    width: 100px;
+    height: 100px;
   }
 }
