@@ -1,0 +1,130 @@
+body{
+    background: url(../images/bgjupiter2.jpg) no-repeat;
+    background-size: cover;
+    background-color: #000;
+    
+}
+
+.lua{
+    width: 50px;
+    height: 50px;
+}
+.ganimedes{
+    width: 200px;
+    height: 200px;
+}
+
+.calisto{
+    width: 130px;
+    height: 130px;
+}
+
+.europe{
+    width: 100px;
+    height: 100px;
+}
+
+.io{
+    width: 60px;
+    height: 60px;
+}
+
+.imagens-slide{
+    position: relative;
+    
+    
+}
+.slide{
+    width: 100vw;
+    height: 100%;
+    margin: auto auto;
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s ease-out;
+    display: flex;
+    align-items:flex-end;
+    
+}
+
+.mostrar{
+    opacity: 1;
+}
+
+
+
+
+.conteudo{
+    color:white;
+    width: 350px;
+    padding: 20px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+.conteudo .titulo{
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+.conteudo .texto{
+    font-size: 15px;
+}
+
+.luaeurope{
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    z-index: 1;
+}
+
+.luaio{
+    position: absolute;
+    top: 100px;
+    right: 403px;
+}
+
+.luacalisto{
+    position: absolute;
+    left: 110px;
+    top: 150px;
+    z-index: 1;
+}
+
+.luaganimedes{
+
+    position: absolute;
+    bottom: 60px;
+    right: 250px;
+}
+
+@keyframes loading {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.luaganimedes{
+    animation: loading 150s linear infinite;
+}
+
+.luaeurope{
+    animation: loading 90s linear infinite;
+
+}
+.luaio{
+    animation: loading 250s linear infinite;
+
+}
+
+.luacalisto{
+    animation: loading 130s linear infinite;
+    
+
+}
+
+

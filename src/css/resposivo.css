@@ -1,0 +1,37 @@
+@media (max-width: 500px) {
+  body {
+    background: url(../images/bgmobile.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .imagens-slider {
+    display: flex;
+    height: 100%;
+  }
+  .luaeurope {
+    position: relative;
+    top: 200px;
+    left: 10px;
+  }
+  .luaio {
+    position: relative;
+    top: 100px;
+    left: 100px;
+  }
+  .luaganimedes {
+    position: relative;
+    top: 10px;
+  }
+  .luacalisto {
+    position: relative;
+    top: 200px;
+  }
+  .slide{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .conteudo{
+    bottom: 20px;
+  }
+}
